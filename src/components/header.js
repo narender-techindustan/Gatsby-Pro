@@ -1,6 +1,7 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "../images/logo.png"
+import PhoneIcon from "../images/phone.png"
 
 const Header = ({ siteTitle }) => (
     <header>
@@ -8,11 +9,11 @@ const Header = ({ siteTitle }) => (
             <div className="row">
                 <div className="col">
                     <a href="#" className="logo">
-                        <img src="images/logo.png" alt="" />
+                        <img src={Logo} alt="" />
                     </a>
                 </div>
                 <div className="col text-right header-right">
-                    <img src="images/phone.png" alt="" />
+                    <img src={PhoneIcon} alt="" />
                     <a href="tel">1300 208 155</a>
                 </div>
             </div>

@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Call from "../images/call.png"
 
 const CallForUs = ({ siteTitle }) => (
     <section className="call-for-us">
@@ -13,7 +13,7 @@ const CallForUs = ({ siteTitle }) => (
                 </div>
                 <div className="col-5 text-right tel-phone">
                     <a href="" className="telphone">
-                        <img src="images/call.png" alt="cell" /> 1300 218 155</a>
+                        <img src={Call} alt="cell" /> 1300 218 155</a>
                 </div>
             </div>
         </div>

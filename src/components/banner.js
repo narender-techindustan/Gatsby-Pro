@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import HeaderImg from "../images/header-image.png"
 
 const Banner = ({ siteTitle }) => (
     <section className="banner">
@@ -13,7 +13,7 @@ const Banner = ({ siteTitle }) => (
                     <p>And no crazy price tag.</p>
                 </div>
                 <div className="col-6 image-right-banner">
-                    <img src="images/header-image.png" alt="" />
+                    <img src={HeaderImg} alt="" />
                 </div>
             </div>
         </div>

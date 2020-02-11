@@ -1,6 +1,9 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import WebsiteIcon from "../images/website.png"
+import FbIcon from "../images/fb.png"
+import InstaIcon from "../images/insta.png"
+import TwitterIcon from "../images/twitter.png"
 
 const Footer = ({ siteTitle }) => (
     <footer>
@@ -10,26 +13,24 @@ const Footer = ({ siteTitle }) => (
                     <ul className="list-inline">
                         <li>
                             <a href="">
-                                <img src="images/website.png" alt="" />
+                                <img src={WebsiteIcon} alt="" />
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/fb.png" alt="" />
+                                <img src={FbIcon} alt="" />
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/insta.png" alt="" />
+                                <img src={InstaIcon} alt="" />
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="images/twitter.png" alt="" />
+                                <img src={TwitterIcon} alt="" />
                             </a>
                         </li>
-
-
                     </ul>
                 </div>
                 <div className="col text-right right-side">
