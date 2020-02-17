@@ -2,11 +2,12 @@ import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../images/logo.png"
 import PhoneIcon from "../images/phone.png"
+import {Row} from "react-bootstrap"
 
 const Header = ({ siteTitle }) => (
     <header>
         <div className="container">
-            <div className="row">
+            <Row>
                 <div className="col">
                     <a href="#" className="logo">
                         <img src={Logo} alt="" />
@@ -16,7 +17,7 @@ const Header = ({ siteTitle }) => (
                     <img src={PhoneIcon} alt="" />
                     <a href="tel">1300 208 155</a>
                 </div>
-            </div>
+            </Row>
         </div>
     </header>
 )
