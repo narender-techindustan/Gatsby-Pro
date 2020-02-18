@@ -4,12 +4,17 @@ import WebsiteIcon from "../images/website.png"
 import FbIcon from "../images/fb.png"
 import InstaIcon from "../images/insta.png"
 import TwitterIcon from "../images/twitter.png"
+import {
+    Grid,
+    Row,
+    Col
+  } from "react-bootstrap";
 
 const Footer = ({ siteTitle }) => (
     <footer>
-        <div className="container">
-            <div className="row">
-                <div className="col">
+        <Grid>
+            <Row>
+                <Col sm={6}>
                     <ul className="list-inline">
                         <li>
                             <a href="">
@@ -32,12 +37,12 @@ const Footer = ({ siteTitle }) => (
                             </a>
                         </li>
                     </ul>
-                </div>
-                <div className="col text-right right-side">
+                </Col>
+                <Col sm={6} className="text-right right-side">
                     <p>Cloud Networks Australia Pty.Ltd © 2018</p>
-                </div>
-            </div>
-        </div>
+                </Col>
+            </Row>
+        </Grid>
     </footer>
 )
 

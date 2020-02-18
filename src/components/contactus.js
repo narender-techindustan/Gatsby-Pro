@@ -3,7 +3,7 @@ import React from "react"
 
 const ContactUs = ({ siteTitle }) => (
     <section>
-        <div className="container">
+        <div className="Grid">
             <div className="row">
                 <div className="heading text-center">
                     <h2>Contact us</h2>

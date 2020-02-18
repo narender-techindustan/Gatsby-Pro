@@ -623,7 +623,7 @@ pre tt:after {
 
 
 /* Custom CSS Start */
-h1,h2{
+h1, h2{
     font-family: 'Roboto', sans-serif;
 }
 p{
@@ -637,6 +637,7 @@ a:hover {
 }
 img {
     max-width: 100%;
+    margin-bottom: 0; 
 }
 header {
     background: #448faf;
@@ -652,6 +653,8 @@ header {
 header .header-right  a {
     color: #fff;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .header-right img {
     margin-right: 10px;
@@ -779,7 +782,7 @@ section.facebook.bg-color {
 .Reviews {
     background: #fff;
     padding: 20px;
-    margin-bottom: 28px ;
+    margin-bottom: 28px;
 }
 .profile {
     display: inline-block;

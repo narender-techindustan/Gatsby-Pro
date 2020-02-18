@@ -1,16 +1,21 @@
 import PropTypes from "prop-types"
 import React from "react"
 import Infographic from "../images/infographic.png"
+import {
+    Grid,
+    Row,
+    Col
+  } from "react-bootstrap";
 
 const TrialCircle = ({ siteTitle }) => (
     <section className="trial-circle">
-        <div className="container">
-            <div className="row">
-                <div className="col infographic">
+        <Grid>
+            <Row>
+                <Col sm={12} className="infographic">
                     <img src={Infographic} alt="" />
-                </div>
-            </div>
-        </div>
+                </Col>
+            </Row>
+        </Grid>
     </section>
 )
 
