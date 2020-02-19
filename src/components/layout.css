@@ -623,6 +623,9 @@ pre tt:after {
 
 
 /* Custom CSS Start */
+body {
+    font-family: 'Lato', sans-serif;
+}
 h1, h2{
     font-family: 'Roboto', sans-serif;
 }
@@ -665,15 +668,17 @@ section.banner {
     position: relative;
 }
 .work-your-plan h1 {
-    font-size: 52px;
+    font-size: 50px;
     color: #2a2a2a;
+    margin-bottom: .5rem;
 }
 .work-your-plan h2 {
-    font-size: 50px;
+    font-size: 46px;
     color: #2a2a2a;
     position: relative;
     line-height: normal;
     padding-bottom: 16px;
+    margin-bottom: .5rem;
 }
 .work-your-plan h2:after {
     position: absolute;
@@ -689,6 +694,7 @@ section.banner {
     width: 500px;
     line-height: 1.9;
     color: #323232;
+    margin-bottom: 1rem;
 }
 .row.banner1:after {
     position: absolute;
@@ -696,7 +702,7 @@ section.banner {
     width: 550px;
     height: 118px;
     top: 0;
-    /* background-image: url(images/cloud.png); */
+    background-image: url(../images/cloud.png);
     background-repeat: no-repeat;
     right: 0;
 }
@@ -729,24 +735,27 @@ section{
 }
 section.call-for-us h3 {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 15px;
+    font-family: 'Lato', sans-serif;
 }
 section.call-for-us p {
     font-size: 18px;
     line-height: 1.5;
+    margin-bottom: 1rem;
 }
 section.call-for-us a.telphone {
     padding: 12px 40px;
     background: #fff;
     color: #438faf;
+    font-family: 'Lato', sans-serif;
 }
 section.call-for-us a.telphone:hover {
     opacity: 0.8;
     text-decoration: none;
 }
 .tel-phone {
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     display: flex;
 }
@@ -804,7 +813,7 @@ section.facebook.bg-color {
     color: #009daf;
     text-transform: capitalize;
 }
-svg.fa-star {
+.Reviews .fa-star {
     color: #fbaa0a;
     font-size: 14px;
 }
@@ -852,13 +861,17 @@ ul.list-inline {
 }
 ul.list-inline li{
     display: inline-block;
+    margin: 0;
 }
 ul.list-inline li a {
     display: inline-block;
+    margin: 0 4px 0 0;
 }
 footer .right-side p {
     margin: 0;
     vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
 }
 .right-side {
     display: flex;
@@ -886,7 +899,7 @@ ul.list-inline li a img {
     position: relative;
     padding: 0;
     margin: 0px;
-    /* background-image: url(images/video-background-min.jpg); */
+    background-image: url(../images/video-background-min.jpg);
     width: 100%;
     display: inline-block;
     height: 600px;
@@ -950,10 +963,10 @@ ul.list-inline li a img {
     box-shadow: none;
     outline: none;
 }
-section.call-for-us .col-7 {
+section.call-for-us .col-md-7 {
     max-width: 100%;
 }
-section.call-for-us .col-5 {
+section.call-for-us .col-md-5 {
     max-width: 100%;
     justify-content: center;
 }
@@ -963,10 +976,10 @@ section.call-for-us .col-5 {
         display: none;
     }
     .work-your-plan h1 {
-        font-size: 36px;
+        font-size: 34px;
     }
     .work-your-plan h2 {
-        font-size: 27px;
+        font-size: 24px;
     }
     .work-your-plan p {
         font-size: 16px;
@@ -1000,7 +1013,7 @@ section.call-for-us .col-5 {
         justify-content: center;
         text-align: center !important;
     }
-    header .col {
+    header .col-md-6 {
         max-width: 100%;
         text-align: center;
         justify-content: center;
@@ -1014,6 +1027,9 @@ section.call-for-us .col-5 {
     }
     .client-video {
         height: 400px;
+    }
+    .heading h2 {
+        font-size: 30px;
     }
 }
 /* Custom CSS Ends */

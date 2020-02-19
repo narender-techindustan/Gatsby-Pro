@@ -5,16 +5,16 @@ import FbIcon from "../images/fb.png"
 import InstaIcon from "../images/insta.png"
 import TwitterIcon from "../images/twitter.png"
 import {
-    Grid,
+    Container,
     Row,
     Col
   } from "react-bootstrap";
 
 const Footer = ({ siteTitle }) => (
     <footer>
-        <Grid>
+        <Container>
             <Row>
-                <Col sm={6}>
+                <Col md={6}>
                     <ul className="list-inline">
                         <li>
                             <a href="">
@@ -38,11 +38,11 @@ const Footer = ({ siteTitle }) => (
                         </li>
                     </ul>
                 </Col>
-                <Col sm={6} className="text-right right-side">
+                <Col md={6} className="text-right right-side">
                     <p>Cloud Networks Australia Pty.Ltd © 2018</p>
                 </Col>
             </Row>
-        </Grid>
+        </Container>
     </footer>
 )
 
